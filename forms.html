@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="CSS/forms.css">
+	<title>Формы</title>
+</head>
+   <body>
+	  <form action="" method="post">
+		<header>
+			<h1>Урок "Формы": теги и их атрибуты</h1>
+			<h3>Расскажите немного о себе...</h3>
+			<span>Попробуйте создать аналогичную форму. Для целей демонстрации вполне сойдут и вымышленые</span>
+		</header>
+		<article>
+			<fieldset id="startinfo">
+				<legend>Коротко о себе</legend>
+				<label for="name">Имя:
+				    <input type="text" id="name" size="33">
+				</label><br>
+				<label for="secname">Фамилия:
+				    <input type="text" id="secname" size="30">
+				</label>
+				<br><span>Пол:</span>
+				<label for="sex1">мужской	
+				   <input type="radio" name="man" id="sex1">
+				</label>
+				<label for="sex2">женский
+				   <input type="radio" name="woman" id="sex2">
+				</label>
+				<br><label for="age">Возраст:</label>
+				   <input type="text" id="age"> лет.
+				</label>
+			</fieldset>
+			<fieldset>
+				<legend>Подробнее о себе</legend>
+				   <input type="radio" name="kid" id="boy">
+
+				<label for="boy">Молодой человек</label>
+
+				<br><input type="radio" name="lady" id="girl">
+
+				<label for="girl">Девушка</label>
+
+
+
+				<br><input type="text" id="birthday" size="30">
+
+			<label for="birthday">Дата рождения</label>
+
+				<br><input type="text" id="family" size="30">
+
+			<label for="family">Семейное положение</label>
+
+				<br><input type="text" id="social" size="30">
+
+			<label for="social">Социальный статус</label>
+
+				<br><input type="text" id="residence" size="30">
+
+			<label for="residence">Местожительство</label>
+		<span class="space">Что вы обычно делаете на выходных:</span>
+				<input type="checkbox" name="weekend" id="sleeping">
+
+			<label for="sleeping">Сплю</label>
+
+				<br><input type="checkbox" name="weekend1" id="friend">
+
+			<label for="friend">Гуляю с друзьями</label>
+
+				<br><input type="checkbox" name="weekend2" id="fishing">
+
+			<label for="fishing">Хожу на рыбалку</label>
+				<br><input type="checkbox" name="weekend3" id="game">
+			<label for="game">Играю в игры</label>
+		<span class="space">Рассказать о формах в книге, посвященной HTML:</span>
+				<br><select name="forms" id="form">
+					<option value="first">Site frequency:</option>
+					<option value="second">HTML for Dummiers.</option>
+				</select>
+		<br><span class="space">Сколько книг вы прочиатли з свою жизнь:</span>
+				<input type="radio" name="books" id="ten">
+			<label for="ten">0-10</label>
+				<br><input type="radio" name="books" id="twenty">
+			<label for="twenty">11-20</label>
+				<br><input type="radio" name="books" id="fifty">
+				<label for="fifty">21-50</label>
+				<br><input type="radio" name="books" id="more_fifty">
+				<label for="more_fifty">50+</label>
+				<br><span class="space">Ваши комментарии:</span>
+				<textarea name="resume" id="coment" cols="70" rows="15"></textarea>
+				<br><select size="3" name="stat" multiple>
+			    	<option value="1posit">Первая позиция</option>
+					<option value="2posit">Вторая позиция</option>
+					<option value="3posit">Третья позиция</option>
+					<option value="4posit">Четвертая позиция</option>
+
+				</select>
+
+			</fieldset>
+
+		</article>
+
+		<aside>
+
+			<fieldset id="end">
+
+				<legend>И в заключении</legend>
+
+
+
+				<label for="none" class="space"></label>
+
+				<input type="text" id="none" size="30" value="Это поле было введено до вас" readonly>
+
+				<br><label for="email" class="space">Email</label>
+
+				<input type="text" id="email" size="30">
+
+
+
+				<br><span class="space">Хотите подисаться на самую модную рассылку спама?</span>
+				<br><i>Выберите категории</i>
+				<br><input type="checkbox" name="spam1" id="insrum">
+				<label for="insrum">Оборудование</label>
+
+				<br><input type="checkbox" name="spam2" id="dishes">
+				<label for="dishes">Как приготовить обеды</label>
+
+				<br><input type="checkbox" name="spam3" id="cash">
+				<label for="cash">Заработай миллион за два дня!</label>
+				<br><span class="space">На сколько сложная задача:</span>
+
+				<br><input type="radio" name="hard1" id="imposible">
+				  <label for="imposible">Совсем нет</label>
+
+				<br><input type="radio" name="hard2" id="difficult">
+				  <label for="difficult">Так себе</label>
+
+				  <br><input type="radio" name="hard3" id="easy">
+				<label for="easy">Еле справились</label>
+			</fieldset>
+		</aside>
+		<button>Отправить</button>
+	</form>
+</body>
+</html>
+

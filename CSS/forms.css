@@ -1,0 +1,24 @@
+body {
+	margin-left: 2em;
+}
+.space, legend {
+    font-weight: 600;
+	font-size: 1.1em;
+}
+ .space { display: block;
+    margin-top: 1em;
+    line-height: 2.2em;
+}
+fieldset {
+	margin-top: 1em;
+	border: 2px solid silver;
+}
+button {
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+}
+#startinfo { margin-top: 10px; line-height: 2em;
+}
+#end { 
+	margin-bottom: 2px;
+}
